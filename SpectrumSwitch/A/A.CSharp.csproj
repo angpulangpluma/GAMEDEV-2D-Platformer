@@ -65,10 +65,12 @@
   <ItemGroup>
     <Compile Include="Assets\bars\Collide.cs" />
     <Compile Include="Assets\bars\Path.cs" />
+    <Compile Include="Assets\bars\Path2.cs" />
     <Compile Include="Assets\bars\followpath.cs" />
     <Compile Include="Assets\charater\CameraView.cs" />
     <Compile Include="Assets\charater\PlayerController.cs" />
     <Compile Include="Assets\charater\backgroundview.cs" />
+    <Compile Include="Assets\obstacles\platformrotate.cs" />
     <Compile Include="Assets\scores\Menuview.cs" />
     <Compile Include="Assets\scores\scoretextview.cs" />
   </ItemGroup>
