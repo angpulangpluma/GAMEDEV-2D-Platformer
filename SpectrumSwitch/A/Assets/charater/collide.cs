@@ -117,7 +117,7 @@ public class collide : MonoBehaviour {
                     dest = 1;
             }
 
-            else if(rends.sprite == White || rends.sprite == Pink || rends.sprite == Orange || rends.sprite == Green || rends.sprite == AM)
+            else if(rends.sprite == White || rends.sprite == Pink || rends.sprite == Orange || rends.sprite == Green || rends.sprite == AM && gameObject.name == "all color ball")
             {
             if (col2.gameObject.GetComponent<SpriteRenderer>().sprite == EndDoor)
                 {

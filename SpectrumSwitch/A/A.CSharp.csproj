@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\bars\Path.cs" />
-    <Compile Include="Assets\bars\Path2.cs" />
     <Compile Include="Assets\bars\followpath.cs" />
     <Compile Include="Assets\buffs\buffcollide.cs" />
     <Compile Include="Assets\buffs\rotate.cs" />
@@ -72,8 +71,9 @@
     <Compile Include="Assets\charater\PlayerController.cs" />
     <Compile Include="Assets\charater\backgroundview.cs" />
     <Compile Include="Assets\charater\collide.cs" />
-    <Compile Include="Assets\obstacles\platformrotate.cs" />
+    <Compile Include="Assets\obstacles\backRotate.cs" />
     <Compile Include="Assets\scores\Menuview.cs" />
+    <Compile Include="Assets\scores\scoreManager.cs" />
     <Compile Include="Assets\scores\scoretextview.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

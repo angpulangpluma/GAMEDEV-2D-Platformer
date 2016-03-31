@@ -1,15 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Path2 : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
+public class backRotate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        transform.Rotate(Vector3.forward * 2);
 	}
 }

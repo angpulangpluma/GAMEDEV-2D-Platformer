@@ -39,8 +39,7 @@ public class buffcollide : MonoBehaviour {
     void pointcoll()
     {
 
-        points++;
-        //Debug.Log(points);
+        scoreManager.addPoints(1);
         catalyst = 1;
 
     }
