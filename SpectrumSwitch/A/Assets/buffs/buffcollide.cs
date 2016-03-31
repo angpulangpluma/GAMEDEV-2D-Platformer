@@ -31,7 +31,7 @@ public class buffcollide : MonoBehaviour {
         if (rends.sprite == BuffPink || rends.sprite == BuffOrange || rends.sprite == BuffGreen || rends.sprite == BuffAM)
             buffcol(col1);
 
-        if (rends.sprite == Likepoints)
+        if (rends.sprite == Likepoints && col1.gameObject.name == "all color ball")
             pointcoll();
 
     }
