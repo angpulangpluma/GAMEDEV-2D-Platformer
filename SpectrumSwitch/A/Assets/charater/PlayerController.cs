@@ -10,12 +10,12 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
-            RotateLeft();
+            //transform.Rotate(Vector3.back * -10);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
-            RotateRight();
+            //transform.Rotate(Vector3.forward * -10);
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
@@ -23,16 +23,7 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    void RotateLeft()
-    {
-        transform.Rotate(Vector3.back * -10);
 
-    }
 
-    void RotateRight()
-    {
-        transform.Rotate(Vector3.forward * -10);
-
-    }
 
 }

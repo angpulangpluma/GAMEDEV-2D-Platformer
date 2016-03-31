@@ -14,7 +14,7 @@ public class Path : MonoBehaviour {
             yield break;
 
         var index = 0;
-        var direction = 1;
+        //var direction = 1;
 
         while (true)
         {
@@ -22,34 +22,29 @@ public class Path : MonoBehaviour {
             index += 1;
 
 
-            if (Points.Length == 1)
-                continue;
+           // if (Points.Length == 1)
+                //continue;
 
             //if (index <= 0)
             //    direction = 1;
 
-            else if (index == Points.Length)
+            if (index == Points.Length)
                 index = 0;
 
             //index = index + direction;
-
             
-
-            
-
         }
 
     }
 
     public void OnDrawGizmos()
     {
-        if (Points == null || Points.Length < 2)
-        {
-            return;
-        }
-            
 
-        for(var a = 1; a < Points.Length; a++)
+        if (Points == null || Points.Length < 2)
+            return;
+
+
+        for (var a = 1; a < Points.Length; a++)
         {
 
             Gizmos.DrawLine(Points[a - 1].position, Points[a].position);
