@@ -119,6 +119,7 @@ public class collide : MonoBehaviour {
                     dest = 1;
             }
 
+
     }
 
     void Update()
